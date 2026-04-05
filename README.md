@@ -1,122 +1,93 @@
-# Multi-Label Classification for Skincare Products
+# Multi-Label Classification for Skincare Products 🧴
 
 ## 📌 Overview
 
-This project focuses on building a **multi-label classification model** to categorize skincare products based on their properties, ingredients, or intended use.
+This project demonstrates a **multi-label classification system** for skincare products. It predicts multiple categories for each product based on its features (such as ingredients, usage, or descriptions).
 
-Unlike traditional classification tasks where each item belongs to a single class, this project allows a product to belong to **multiple categories simultaneously** (e.g., *moisturizing*, *anti-aging*, *acne-fighting*).
-
----
-
-## 🚀 Features
-
-* Multi-label classification pipeline
-* Data preprocessing and cleaning
-* Feature extraction (text-based or structured data)
-* Model training and evaluation
-* Performance metrics for multi-label tasks
+The entire workflow—data preprocessing, model training, and evaluation—is implemented in a **Jupyter Notebook**.
 
 ---
 
-## 🧠 Problem Statement
+## 📁 Project Contents
 
-Skincare products often serve multiple purposes. The goal is to:
-
-* Predict multiple labels per product
-* Improve product categorization
-* Enable better search and recommendation systems
+* `Multi_Label_Classification.ipynb` → Main notebook with complete implementation and outputs
 
 ---
 
-## 🗂️ Project Structure
+## 🚀 What This Project Does
 
-```
-├── data/               # Dataset files
-├── notebooks/          # Jupyter notebooks for exploration
-├── src/                # Source code (models, preprocessing, utils)
-├── models/             # Saved trained models
-├── results/            # Outputs and evaluation results
-└── README.md
-```
+* Processes and cleans skincare product data
+* Applies multi-label classification techniques
+* Trains a machine learning model
+* Evaluates performance using appropriate metrics
+* Displays results and insights within the notebook
 
 ---
 
-## ⚙️ Installation
+## ▶️ How to Run
 
-Clone the repository:
+1. Clone the repository:
 
-```bash
+```bash id="m1k9zs"
 git clone https://github.com/deepayans/Multi-Label-Classification-for-Skincare-Products.git
 cd Multi-Label-Classification-for-Skincare-Products
 ```
 
-Install dependencies:
+2. Install dependencies:
 
-```bash
-pip install -r requirements.txt
+```bash id="p8x2vn"
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
+
+3. Launch Jupyter Notebook:
+
+```bash id="t6q4lb"
+jupyter notebook
+```
+
+4. Open the notebook file and run all cells
 
 ---
 
-## 📊 Usage
+## 📊 Methodology
 
-Run training:
-
-```bash
-python train.py
-```
-
-Evaluate model:
-
-```bash
-python evaluate.py
-```
+* Data preprocessing and label preparation
+* Feature extraction
+* Multi-label model training
+* Model evaluation (e.g., precision, recall, F1-score)
 
 ---
 
-## 📈 Evaluation Metrics
+## 📈 Sample Output
 
-Common metrics for multi-label classification:
+The notebook includes:
 
-* Hamming Loss
-* Precision, Recall, F1-score
-* Subset Accuracy
+* Predicted labels for skincare products
+* Evaluation metrics
+* Visualizations for better understanding
 
 ---
 
 ## 🛠️ Technologies Used
 
 * Python
+* Pandas, NumPy
 * Scikit-learn
-* Pandas & NumPy
-* Matplotlib / Seaborn
-* (Optional) Deep Learning frameworks like TensorFlow or PyTorch
+* Matplotlib, Seaborn
+* Jupyter Notebook
 
 ---
 
-## 🔍 Future Improvements
+## 🎯 Use Case
 
-* Use transformer-based models (e.g., BERT)
-* Hyperparameter tuning
-* Deployment via API
-* Real-time product classification
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+* Product categorization
+* Recommendation systems
+* Learning multi-label classification techniques
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
----
-
-## 📬 Contact
-
-For questions or collaboration, feel free to reach out via GitHub.
 
 ---
